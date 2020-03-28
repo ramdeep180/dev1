@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "________running meta data now"
+echo "hai________running meta data now"
 PH=$(curl -sL http://169.254.169.254/latest/meta-data/public-hostname)
 PSG=$(curl -sL http://169.254.169.254/latest/meta-data/security-groups)
 PIP=$(curl -sL http://169.254.169.254/latest/meta-data/public-ipv4)
