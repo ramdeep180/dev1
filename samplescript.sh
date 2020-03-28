@@ -7,7 +7,6 @@ ID=$(curl -sL http://169.254.169.254/latest/meta-data/instance-id)
 
 echo "The public host name is $PH"
 echo "The public ip is $PIP"
-echo "$PSG"
-echo "$TYPE"
-echo "$ID" 
-
+echo "the pub sec group is $PSG"
+echo "the instance type is $TYPE"
+echo "the instance id is $ID"
